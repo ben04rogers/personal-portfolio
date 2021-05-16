@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  .noscroll {
+    overflow-x: hidden;
+  }
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  line-height: 1.5;
+  background: $dark-grey;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+}
+
+// Utility classes
+.my-1 {
+  margin: 1rem 0;
+}
+
+.mx-1 {
+  margin: 0 0.5rem;
+}
+
+.container {
+  max-width: $website-width;
+  padding: 1.5rem 1.5rem;
+  margin: auto;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+// Text
+.text-blue {
+  color: $color-blue;
+}
+
+// Buttons
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.3s;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  @extend %btn-shared;
+  &-blue {
+    @extend %btn-shared;
+    color: $dark-grey;
+    background-color: $color-blue;
+  }
+
+  &-dark {
+    @extend %btn-shared;
+    color: white;
+    background-color: $dark-grey;
+  }
+
+  &-blue-outline {
+    @extend %btn-shared;
+    color: white;
+    background-color: transparent;
+    border: 2px solid $color-blue;
+  }
+
+  &-blue:hover {
+    color: white;
+    background-color: transparent;
+    border: 2px solid $color-blue;
+  }
+
+  &-blue-outline:hover {
+    color: $dark-grey;
+    background-color: $color-blue;
+  }
+
+  &-small {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+// Global media queries
+.hide-for-mobile {
+  @media screen and (max-width: 999px) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}

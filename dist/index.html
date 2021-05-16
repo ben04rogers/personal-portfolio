@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben Rogers | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav id="nav">
+        <div class="container nav-container">
+          <a href="index.html" id="logo">
+            <span><</span>
+            <span class="text-blue">BEN</span>
+            <span>ROGERS</span>
+            <span>/></span>
+          </a>
+
+          <ul class="hide-for-mobile nav-links flex">
+            <li>
+              <a href="#about" class="link"
+                ><i class="fas fa-address-card"></i> About</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="link"
+                ><i class="fas fa-tools"></i> Skills</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="link"
+                ><i class="fas fa-code"></i> Projects</a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="link"
+                ><i class="fas fa-file"></i> Resume</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="link"
+                ><i class="fas fa-envelope"></i> Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="hide-for-desktop" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="mobile-menu hide-for-desktop">
+          <div class="container">
+            <div class="mobile-menu-links">
+              <ul>
+                <li>
+                  <a href="#about" class="link"
+                    ><i class="fas fa-address-card"></i> About</a
+                  >
+                </li>
+                <li>
+                  <a href="#skills" class="link"
+                    ><i class="fas fa-tools"></i> Skills</a
+                  >
+                </li>
+                <li>
+                  <a href="#projects" class="link"
+                    ><i class="fas fa-code"></i> Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#resume" class="link"
+                    ><i class="fas fa-file"></i> Resume</a
+                  >
+                </li>
+                <li>
+                  <a href="#contact" class="link"
+                    ><i class="fas fa-envelope"></i> Contact</a
+                  >
+                </li>
+              </ul>
+
+
+              <div class="icon-links">
+                <a href="https://github.com/ben04rogers"
+                  ><i class="fab fa-github fa-2x"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/ben-rogers-a3b013140/"
+                  ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+                <a href="#"><i class="fas fa-envelope fa-2x"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HERO -->
+      <class class="hero">
+          <h1 class="h1">
+            I'm a
+            <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+          </h1>
+          <p class="student" id="student">
+            Specialising in web development and currently studying Computer
+            Science at QUT in Brisbane, Australia.
+          </p>
+          <div class="hero-btns">
+            <a href="#about" class="btn-blue">About me</a>
+            <a href="#projects" class="btn-blue-outline mx-1" id="projects-btn"
+              >Projects</a
+            >
+          </div>
+        </class>
+        </div>
+      
+    </header>
+
+    <!-- Projects -->
+    <section class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3><a href="">Techprowl</a> →</h3>
+            <p>Computer Auction website using Python, Bootstrap and SQLite. </p>
+            <ul class="tech-stack-list">
+              <li><span class="iconify" data-icon="bx:bxl-python" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="bi:bootstrap-fill" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="file-icons:sqlite" data-inline="false"></span></li>
+            </ul>
+            <div class="project-links">
+              <a href="" class="btn-dark btn-small"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="">StudySpot</a> →</h3>
+            <p>Mobile, cross-plaform learning management application using Xamarin Forms. </p>
+            <ul class="tech-stack-list">
+              <li><span class="iconify" data-icon="teenyicons:c-sharp-solid" data-inline="false"></span></li>
+            </ul>
+            <div class="project-links">
+              <a href="" class="btn-dark btn-small"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="">Top 10 Songs</a> →</h3>
+            <p>Python program that retrieves top 10 songs using regular rexpresions from various websites. </p>
+            <ul class="tech-stack-list">
+              <li><span class="iconify" data-icon="bx:bxl-python" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="file-icons:sqlite" data-inline="false"></span></li>
+            </ul>
+            <div class="project-links">
+              <a href="" class="btn-dark btn-small"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3><a href="">Shortest Path Generator</a> →</h3>
+            <p>Heuristic approach of travelling salesman problem in a console app. </p>
+            <ul class="tech-stack-list">
+              <li><span class="iconify" data-icon="teenyicons:c-sharp-solid" data-inline="false"></span></li>
+            </ul>
+            <div class="project-links">
+              <a href="" class="btn-dark btn-small"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <script defer src="js/app.js"></script>
+  </body>
+</html>
