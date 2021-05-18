@@ -46,6 +46,10 @@ a {
   color: #3b82f6;
 }
 
+.text-white {
+  color: white;
+}
+
 .btn, .btn-blue, .btn-dark, .btn-blue-outline {
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -432,7 +436,6 @@ header .hero .hero-btns {
 }
 
 .projects h2 {
-  color: #181a1b;
   letter-spacing: 2px;
 }
 
@@ -448,7 +451,7 @@ header .hero .hero-btns {
 .projects .projects-grid .project-card {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
-  border: 1px solid #181a1b;
+  border: 1px solid #eaeaea;
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem 1.25rem;

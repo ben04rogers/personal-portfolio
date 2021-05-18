@@ -3,7 +3,6 @@
   padding: 2rem 0;
   background-color: white;
   h2 {
-    color: $dark-grey;
     letter-spacing: 2px;
   }
 
@@ -14,7 +13,7 @@
 
     .project-card {
       flex-basis: 30%;
-      border: 1px solid $dark-grey;
+      border: 1px solid #eaeaea;
       border-radius: 10px;
       margin: 1rem 0;
       padding: 1rem 1.25rem;

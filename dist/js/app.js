@@ -1,3 +1,4 @@
+const logoName = document.getElementById("logo-name");
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 const hamburger = document.getElementById("hamburger");
@@ -69,7 +70,11 @@ hamburger.addEventListener("click", () => {
 function resizeNav() {
   if (window.scrollY > navbar.offsetHeight + 150) {
     navbar.classList.add("active");
+    logoName.classList.remove("text-blue");
+    logoName.classList.add("text-white");
   } else {
     navbar.classList.remove("active");
+    logoName.classList.remove("text-white");
+    logoName.classList.add("text-blue");
   }
 }
