@@ -49,6 +49,10 @@ a {
   color: white;
 }
 
+.text-grey {
+  color: grey;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;
@@ -63,7 +67,6 @@ a {
   @extend %btn-shared;
   &-blue {
     @extend %btn-shared;
-    color: $dark-grey;
     background-color: $color-blue;
   }
 
@@ -81,7 +84,6 @@ a {
   }
 
   &-blue:hover {
-    color: white;
     background-color: transparent;
     border: 2px solid $color-blue;
   }
@@ -94,6 +96,10 @@ a {
   &-small {
     padding: 0.5rem 1rem;
   }
+}
+
+.hover-bg-light:hover {
+  color: $dark-grey;
 }
 
 .flex {
