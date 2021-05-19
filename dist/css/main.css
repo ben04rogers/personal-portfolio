@@ -124,8 +124,7 @@ header {
 header nav {
   z-index: 100;
   width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0px;
   min-height: 6vh;
   -webkit-animation: nav-links 0.5s;
@@ -442,7 +441,8 @@ header .hero .hero-btns {
 
 .projects h2 {
   text-align: center;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .projects .project-row {
@@ -520,5 +520,11 @@ header .hero .hero-btns {
   .projects .project-row .project-right {
     width: 100%;
   }
+}
+
+.skills h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
