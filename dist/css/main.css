@@ -269,7 +269,7 @@ header nav .mobile-menu .container .mobile-menu-links ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 header nav .mobile-menu .container .mobile-menu-links ul li {
@@ -609,6 +609,57 @@ header .hero .hero-btns {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background: #0b63f3;
+}
+
+.contact form #status {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 3x;
+}
+
+.contact form #status.success {
+  background-color: #d3fa99;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+.contact form #status.error {
+  background-color: #fa815c;
+  color: white;
+  -webkit-animation: status 4s ease forwards;
+          animation: status 4s ease forwards;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .footer {

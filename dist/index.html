@@ -41,11 +41,6 @@
 
           <ul class="hide-for-mobile nav-links flex">
             <li>
-              <a href="#about" class="link"
-                ><i class="fas fa-address-card"></i> About</a
-              >
-            </li>
-            <li>
               <a href="#skills" class="link"
                 ><i class="fas fa-tools"></i> Skills</a
               >
@@ -78,11 +73,6 @@
           <div class="container">
             <div class="mobile-menu-links">
               <ul>
-                <li>
-                  <a href="#about" class="link blue-hover"
-                    ><i class="fas fa-address-card"></i> About</a
-                  >
-                </li>
                 <li>
                   <a href="#skills" class="link blue-hover"
                     ><i class="fas fa-tools"></i> Skills</a
@@ -131,9 +121,9 @@
             Science at QUT in Brisbane, Australia.
           </p>
           <div class="hero-btns">
-            <a href="#projects" class="btn-blue">Projects</a>
+            <a href="#projects" class="btn-blue"><i class="fas fa-code"></i> Projects</a>
             <a href="#contact" class="btn-blue-outline mx-1" id="projects-btn"
-              >Contact</a
+              ><i class="fab fa-github"></i> Github</a
             >
           </div>
         </class>
@@ -141,7 +131,7 @@
     </header>
 
     <!-- PROJECTS -->
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="container">
         <h2>My <span class="text-blue">Projects</span></h2>
         <div class="project-row">
@@ -245,9 +235,9 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
-        <form action="">
+        <form id="contact-form" action="https://formspree.io/f/mjvjylnp" method="POST">
           <h2>Contact <span class="text-blue">Me</span></h2>
 
           <div class="form-group">
@@ -263,6 +253,7 @@
           </div>
 
           <button type="submit">SUBMIT</button>
+          <div id="status"></div>
         </form>
       </div>
     </section>
