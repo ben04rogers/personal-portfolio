@@ -7,7 +7,6 @@ const body = document.querySelector("body");
 const arrow = document.getElementById("arrow-scroll");
 const navbar = document.querySelector("nav");
 window.addEventListener("scroll", resizeNav);
-document.getElementsByClassName("link").style.background = "red";
 
 const typedTextOptions = ["developer.", "student.", "React.js enthusiast."];
 const typingDelay = 100;

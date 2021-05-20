@@ -7,10 +7,10 @@ html {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
   padding: 0;
   line-height: 1.5;
   background: #181a1b;
@@ -65,6 +65,7 @@ a {
 }
 
 .btn-blue {
+  color: white;
   background-color: #3b82f6;
 }
 
@@ -74,27 +75,24 @@ a {
 }
 
 .btn-blue-outline {
-  color: white;
+  color: #3b82f6;
   background-color: transparent;
   border: 2px solid #3b82f6;
 }
 
 .btn-blue:hover {
-  background-color: transparent;
-  border: 2px solid #3b82f6;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #0b63f3;
 }
 
 .btn-blue-outline:hover {
-  color: #181a1b;
+  color: white;
   background-color: #3b82f6;
 }
 
 .btn-small {
   padding: 0.5rem 1rem;
-}
-
-.hover-bg-light:hover {
-  color: #181a1b;
 }
 
 .flex {
@@ -146,12 +144,9 @@ header nav .nav-container #logo {
   z-index: 10;
   letter-spacing: 2px;
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
-}
-
-header nav .nav-container #logo span {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 header nav .nav-container .nav-links {
@@ -201,7 +196,7 @@ header nav .nav-container #hamburger {
 
 header nav .nav-container #hamburger > span {
   display: block;
-  height: 2px;
+  height: 3px;
   width: 26px;
   background-color: white;
   -webkit-transform-origin: left center;
@@ -211,7 +206,7 @@ header nav .nav-container #hamburger > span {
 }
 
 header nav .nav-container #hamburger > span:not(:last-child) {
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 header nav .nav-container #hamburger.open {
@@ -236,7 +231,7 @@ header nav .nav-container #hamburger.open > span:last-child {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   position: absolute;
-  bottom: -4px;
+  bottom: -5px;
 }
 
 header nav .mobile-menu {
@@ -340,7 +335,6 @@ header .hero p {
 }
 
 header .hero h1 {
-  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
   white-space: nowrap;
   text-align: center;
@@ -423,9 +417,12 @@ header .hero .hero-btns {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   header nav .nav-container #logo {
     font-size: 1.25rem;
+  }
+  header nav .mobile-menu {
+    top: 50px;
   }
   header .hero span {
     max-width: 100%;
@@ -437,11 +434,11 @@ header .hero .hero-btns {
 
 .projects {
   background: white;
+  padding: 3rem 0;
 }
 
 .projects h2 {
   text-align: center;
-  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
@@ -522,9 +519,95 @@ header .hero .hero-btns {
   }
 }
 
+.skills {
+  padding: 3rem 0;
+}
+
 .skills h2 {
   text-align: center;
-  margin-top: 2rem;
   margin-bottom: 3rem;
+}
+
+.skills .skills-icons {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skills .skills-icons svg {
+  margin: 0.75rem;
+  width: 70px;
+}
+
+.contact {
+  background: white;
+  padding: 3rem 0;
+}
+
+.contact form {
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 25px grey;
+          box-shadow: 0 5px 25px grey;
+  padding: 2rem;
+}
+
+.contact form h2 {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.contact form .form-group input {
+  margin: 0.75rem 0;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.contact form .form-group input:focus {
+  outline: none;
+}
+
+.contact form .form-group textarea {
+  width: 100%;
+  border-radius: 3px;
+  margin: 0.75rem 0;
+  border: 1px solid black;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.contact form .form-group textarea:focus {
+  outline: none;
+}
+
+.contact form button {
+  width: 100%;
+  margin: 0.75rem 0;
+  padding: 0.75rem 0;
+  border-radius: 3px;
+  border: none;
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact form button:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #0b63f3;
 }
 /*# sourceMappingURL=main.css.map */

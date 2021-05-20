@@ -6,13 +6,13 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   .noscroll {
     overflow-x: hidden;
   }
-  font-family: "Montserrat", sans-serif;
   padding: 0;
   line-height: 1.5;
   background: $dark-grey;
@@ -66,6 +66,7 @@ a {
 .btn {
   @extend %btn-shared;
   &-blue {
+    color: white;
     @extend %btn-shared;
     background-color: $color-blue;
   }
@@ -78,28 +79,24 @@ a {
 
   &-blue-outline {
     @extend %btn-shared;
-    color: white;
+    color: $color-blue;
     background-color: transparent;
     border: 2px solid $color-blue;
   }
 
   &-blue:hover {
-    background-color: transparent;
-    border: 2px solid $color-blue;
+    transition: all 0.3s ease;
+    background: darken($color-blue, 10%);
   }
 
   &-blue-outline:hover {
-    color: $dark-grey;
+    color: white;
     background-color: $color-blue;
   }
 
   &-small {
     padding: 0.5rem 1rem;
   }
-}
-
-.hover-bg-light:hover {
-  color: $dark-grey;
 }
 
 .flex {

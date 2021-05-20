@@ -10,10 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap"
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-    />
+    /> 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -140,6 +140,7 @@
         </div>
     </header>
 
+    <!-- PROJECTS -->
     <section class="projects">
       <div class="container">
         <h2>My <span class="text-blue">Projects</span></h2>
@@ -156,9 +157,9 @@
             </ul>
             <p>Uses a QUT made REST API that holds happiness data collected from the World Happiness Report initiative. Users can register, login and view happiness data by country. Users can filter the data by year, country and search limit. AG Grid and Chart.js were used to present the data.</p>
             <div class="project-links">
-              <a href="" class="btn-blue btn-small hover-bg-light"> <i class="fas fa-external-link-alt"></i
+              <a href="" class="btn-blue btn-small"> <i class="fas fa-external-link-alt"></i
                 > Live</a>
-              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+              <a href="" class="btn-blue-outline btn-small mx-1"> <i class="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -179,7 +180,7 @@
             <div class="project-links">
               <a href="" class="btn-blue btn-small hover-bg-light"> <i class="fas fa-external-link-alt"></i
                 > Live</a>
-              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+              <a href="" class="btn-blue-outline btn-small mx-1"> <i class="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -196,9 +197,7 @@
             </ul>
             <p>Console app that generates an itinerary by receiving a mail file, plane specification file, trip starting time and output file. Program uses a heuristic algorithm to find minmize the flight length and outputs the end result to the console.</p>
             <div class="project-links">
-              <a href="" class="btn-blue btn-small hover-bg-light"> <i class="fas fa-external-link-alt"></i
-                > Live</a>
-              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+              <a href="" class="btn-blue-outline btn-small"> <i class="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -216,9 +215,7 @@
             </ul>
             <p>Python program that uses regular expressions to scrape music websites and display current and previous top songs. Users can preview the selected songs in the app, export them to a html file or save them to a database file.</p>
             <div class="project-links">
-              <a href="" class="btn-blue btn-small hover-bg-light"> <i class="fas fa-external-link-alt"></i
-                > Live</a>
-              <a href="" class="btn-dark btn-small mx-1"> <i class="fab fa-github"></i
+              <a href="" class="btn-blue-outline btn-small"> <i class="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -226,11 +223,48 @@
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section class="skills">
       <div class="container">
         <h2 class="text-white">My <span class="text-blue">Skills</span></h2>
+        <ul class="skills-icons">
+          <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-scss2" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:react" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:nodejs-icon" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:c-sharp" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:java" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false" data-width="70px" data-height="70px"></span></li>
+          <li><span class="iconify" data-icon="logos:tailwindcss-icon" data-inline="false" data-width="70px" data-height="70px"></span></li>
+        </ul>
       </div>
+    </section>
 
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="container">
+        <form action="">
+          <h2>Contact <span class="text-blue">Me</span></h2>
+
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
+          </div>
+
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
     </section>
 
     <script defer src="js/app.js"></script>

@@ -1,0 +1,63 @@
+.contact {
+  background: white;
+  padding: 3rem 0;
+
+  form {
+    h2 {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 5px 25px grey;
+    padding: 2rem;
+
+    .form-group {
+      input {
+        margin: 0.75rem 0;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid black;
+        padding: 0.75rem;
+        font-size: 1rem;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      textarea {
+        width: 100%;
+        border-radius: 3px;
+        margin: 0.75rem 0;
+        border: 1px solid black;
+        padding: 0.75rem;
+        font-size: 1rem;
+      }
+
+      textarea:focus {
+        outline: none;
+      }
+    }
+
+    button {
+      width: 100%;
+      margin: 0.75rem 0;
+      padding: 0.75rem 0;
+      border-radius: 3px;
+      border: none;
+      background: $color-blue;
+      color: white;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    button:hover {
+      transition: all 0.3s ease;
+      background: darken($color-blue, 10%);
+    }
+  }
+}

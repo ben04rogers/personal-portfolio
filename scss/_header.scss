@@ -20,12 +20,9 @@ header {
         z-index: 10;
         letter-spacing: 2px;
         color: $text-color;
-        font-family: "Oswald", sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 2rem;
-
-        span {
-          font-weight: 600;
-        }
+        font-weight: 700;
       }
 
       .nav-links {
@@ -61,14 +58,14 @@ header {
         margin: auto 0;
         > span {
           display: block;
-          height: 2px;
+          height: 3px;
           width: 26px;
           background-color: $text-color;
           transform-origin: left center;
           transition: all 0.3s ease-in-out;
 
           &:not(:last-child) {
-            margin-bottom: 6px;
+            margin-bottom: 5px;
           }
         }
 
@@ -89,7 +86,7 @@ header {
           > span:last-child {
             transform: rotate(-45deg);
             position: absolute;
-            bottom: -4px;
+            bottom: -5px;
           }
         }
       }
@@ -174,7 +171,6 @@ header {
       color: $text-color;
     }
     h1 {
-      font-family: "Oswald", sans-serif;
       letter-spacing: 2px;
       white-space: nowrap;
       text-align: center;
@@ -239,13 +235,17 @@ header {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   header {
     nav {
       .nav-container {
         #logo {
           font-size: 1.25rem;
         }
+      }
+
+      .mobile-menu {
+        top: 50px;
       }
     }
     .hero {
