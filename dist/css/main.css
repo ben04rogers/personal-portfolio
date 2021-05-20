@@ -236,7 +236,7 @@ header nav .nav-container #hamburger.open > span:last-child {
 
 header nav .mobile-menu {
   position: absolute;
-  top: 80px;
+  top: 70px;
   right: 0;
   width: 100%;
   height: 100vh;
@@ -553,7 +553,7 @@ header .hero .hero-btns {
 }
 
 .contact form {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   border-radius: 3px;
   -webkit-box-shadow: 0 5px 25px grey;
@@ -609,5 +609,66 @@ header .hero .hero-btns {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background: #0b63f3;
+}
+
+.footer {
+  background: #181a1b;
+  padding: 1.5rem 0;
+  color: white;
+}
+
+.footer .footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-flex span {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.footer .footer-flex .footer-icon-links a {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .footer .footer-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer-flex .top-scroll-button {
+    margin-top: 2rem;
+  }
+  .footer .footer-flex .footer-icon-links {
+    margin-top: 2rem;
+  }
+  .footer .footer-flex .footer-icon-links a {
+    margin: 0 1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
