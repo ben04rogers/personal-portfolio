@@ -8,7 +8,7 @@ const arrow = document.getElementById("arrow-scroll");
 const navbar = document.querySelector("nav");
 window.addEventListener("scroll", resizeNav);
 
-const typedTextOptions = ["developer.", "student.", "React.js enthusiast."];
+const typedTextOptions = ["developer.", "student."];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newTextDelay = 1500;
