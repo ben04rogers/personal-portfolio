@@ -480,6 +480,8 @@ header .hero .hero-btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style-type: none;
   margin-top: 1rem;
 }
