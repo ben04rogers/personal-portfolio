@@ -348,8 +348,8 @@ header .hero .hero-btns {
   header nav .nav-container #logo {
     font-size: 1.5rem;
   }
-  header nav .mobile-menu {
-    top: 50px;
+  header nav .mobile-menu .container .mobile-menu-links ul li {
+    margin: 0 0.5rem;
   }
   header .hero span {
     max-width: 100%;

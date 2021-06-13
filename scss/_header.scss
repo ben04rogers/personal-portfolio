@@ -190,9 +190,16 @@ header {
           font-size: 1.5rem;
         }
       }
-
       .mobile-menu {
-        top: 50px;
+        .container {
+          .mobile-menu-links {
+            ul {
+              li {
+                margin: 0 0.5rem;
+              }
+            }
+          }
+        }
       }
     }
     .hero {
