@@ -69,6 +69,7 @@ a {
     color: white;
     @extend %btn-shared;
     background-color: $color-blue;
+    border: 2px solid $color-blue;
   }
 
   &-dark {

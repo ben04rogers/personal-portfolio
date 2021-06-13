@@ -67,6 +67,7 @@ a {
 .btn-blue {
   color: white;
   background-color: #3b82f6;
+  border: 2px solid #3b82f6;
 }
 
 .btn-dark {
