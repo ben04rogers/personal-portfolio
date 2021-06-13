@@ -329,7 +329,7 @@ header .hero .hero-btns {
 
 @media screen and (max-width: 999px) {
   header nav .container {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
   }
   header nav .nav-container {
     -webkit-box-pack: center;
