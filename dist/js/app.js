@@ -15,10 +15,6 @@ const newTextDelay = 1500;
 let textArrayIndex = 0;
 let charIndex = 0;
 
-particlesJS.load("particles-js", "../.../particles.json", function () {
-  console.log("callback - particles.js config loaded");
-});
-
 function type() {
   if (charIndex < typedTextOptions[textArrayIndex].length) {
     if (!cursorSpan.classList.contains("typing"))
