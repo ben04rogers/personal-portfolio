@@ -101,6 +101,11 @@ a {
   display: flex;
 }
 
+.white-image {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
 @media screen and (max-width: 999px) {
   .hide-for-mobile {
     display: none;

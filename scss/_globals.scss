@@ -103,6 +103,11 @@ a {
   display: flex;
 }
 
+// Image colours
+.white-image {
+  filter: brightness(0) invert(1);
+}
+
 // Global media queries
 .hide-for-mobile {
   @media screen and (max-width: 999px) {
