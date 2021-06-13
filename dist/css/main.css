@@ -199,91 +199,22 @@ header nav .nav-container .nav-links .link:hover::after {
   width: 100%;
 }
 
-header nav .nav-container #hamburger {
-  cursor: pointer;
-  margin: auto 0;
-}
-
-header nav .nav-container #hamburger > span {
-  display: block;
-  height: 3px;
-  width: 26px;
-  background-color: white;
-  -webkit-transform-origin: left center;
-          transform-origin: left center;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-header nav .nav-container #hamburger > span:not(:last-child) {
-  margin-bottom: 5px;
-}
-
-header nav .nav-container #hamburger.open {
-  position: relative;
-}
-
-header nav .nav-container #hamburger.open .overlay {
-  -webkit-animation: fade-in 300ms ease-in-out forwards;
-          animation: fade-in 300ms ease-in-out forwards;
-}
-
-header nav .nav-container #hamburger.open > span:first-child {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-header nav .nav-container #hamburger.open > span:nth-child(2) {
-  opacity: 0;
-}
-
-header nav .nav-container #hamburger.open > span:last-child {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  position: absolute;
-  bottom: -5px;
-}
-
-header nav .mobile-menu {
-  position: absolute;
-  top: 70px;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  background: #3b82f6;
-  z-index: 200;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
 header nav .mobile-menu .container {
-  height: 100%;
+  padding-top: 0;
 }
 
 header nav .mobile-menu .container .mobile-menu-links ul {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 90px;
+  list-style-type: none;
 }
 
 header nav .mobile-menu .container .mobile-menu-links ul li {
-  margin: 1rem 0;
+  margin: 0rem 1rem;
 }
 
 header nav .mobile-menu .container .mobile-menu-links ul .link::after {
@@ -299,25 +230,6 @@ header nav .mobile-menu .container .mobile-menu-links ul .link::after {
 
 header nav .mobile-menu .container .mobile-menu-links ul .link:hover::after {
   width: 100%;
-}
-
-header nav .mobile-menu .container .mobile-menu-links .icon-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2rem 0;
-}
-
-header nav .mobile-menu .container .mobile-menu-links .icon-links a {
-  margin: 0 1rem;
-}
-
-header nav .mobile-menu.show {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
 }
 
 header nav.active {
@@ -421,6 +333,14 @@ header .hero .hero-btns {
   margin-top: 1rem;
 }
 
+@media screen and (max-width: 999px) {
+  header nav .nav-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero {
     width: 80%;
@@ -429,7 +349,7 @@ header .hero .hero-btns {
 
 @media screen and (max-width: 500px) {
   header nav .nav-container #logo {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   header nav .mobile-menu {
     top: 50px;
