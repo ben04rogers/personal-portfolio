@@ -130,13 +130,7 @@ header #particles-js {
 }
 
 header nav {
-  z-index: 100;
   width: 100%;
-  position: fixed;
-  top: 0px;
-  min-height: 6vh;
-  -webkit-animation: nav-links 0.5s;
-          animation: nav-links 0.5s;
 }
 
 header nav .nav-container {

@@ -8,13 +8,7 @@ header {
   }
 
   nav {
-    z-index: 100;
     width: 100%;
-    position: fixed;
-    top: 0px;
-    min-height: 6vh;
-    animation: nav-links 0.5s;
-
     .nav-container {
       position: relative;
       display: flex;
