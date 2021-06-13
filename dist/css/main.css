@@ -148,7 +148,7 @@ header nav .nav-container {
 header nav .nav-container #logo {
   margin: auto 0;
   z-index: 10;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
