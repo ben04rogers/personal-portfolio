@@ -125,6 +125,10 @@ header {
   min-height: 100vh;
 }
 
+header #particles-js {
+  height: 100vh;
+}
+
 header nav {
   z-index: 100;
   width: 100%;

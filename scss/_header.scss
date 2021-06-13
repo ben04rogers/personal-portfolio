@@ -2,6 +2,11 @@ header {
   background: $dark-grey;
   background-size: cover;
   min-height: 100vh;
+
+  #particles-js {
+    height: 100vh;
+  }
+
   nav {
     z-index: 100;
     width: 100%;

@@ -30,6 +30,7 @@
   <body>
     <!-- HEADER -->
     <header id="header">
+      <div id="particles-js">
         <nav id="nav">
           <div class="container nav-container">
             <a href="index.html" id="logo">
@@ -125,6 +126,7 @@
             </div>
           </class>
           </div>
+      </div>
     </header>
 
     <!-- PROJECTS -->
@@ -340,6 +342,14 @@
       </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      particlesJS.load('particles-js', './particles.json', function(){
+        console.log("particles.josn loaded...")
+      })
+    </script>
     <script defer src="js/app.js"></script>
+
   </body>
 </html>
