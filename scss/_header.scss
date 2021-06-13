@@ -166,6 +166,9 @@ header {
 @media screen and (max-width: 999px) {
   header {
     nav {
+      .container {
+        padding-bottom: 0.5rem;
+      }
       .nav-container {
         justify-content: center;
       }
