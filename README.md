@@ -2,7 +2,7 @@
 
 My personal portfolio site. Can be viewed at www.benrogers.dev
 
-## Technologies Used
+## Built with
 - HTML
 - SCSS
 - Vanilla JavaScript
