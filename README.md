@@ -7,6 +7,9 @@ My personal portfolio site. Can be viewed at www.benrogers.dev
 - HTML
 - SCSS
 - Vanilla JavaScript
-- Wow JS
-- Animate CSS
-  git
+
+
+## Acknowledgments
+
+* [WOW.js](https://mynameismatthieu.com/WOW/) - Scrolling animation
+* [Font Awesome](https://fontawesome.com/?from=io/) - Icons used
