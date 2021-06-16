@@ -636,6 +636,12 @@ header .hero .hero-btns {
 
 .footer .footer-flex .footer-icon-links a {
   margin-left: 2rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.footer .footer-flex .footer-icon-links a:hover {
+  color: #3b82f6;
 }
 
 @media screen and (max-width: 500px) {

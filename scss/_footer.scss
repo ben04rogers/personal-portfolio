@@ -22,6 +22,11 @@
 
     .footer-icon-links a {
       margin-left: 2rem;
+
+      transition: 0.2s;
+      &:hover {
+        color: $color-blue;
+      }
     }
   }
 }
