@@ -16,5 +16,11 @@
       margin: 0.75rem;
       width: 70px;
     }
+    li {
+      transition: 0.3s;
+    }
+    li:hover {
+      transform: scale(1.3);
+    }
   }
 }

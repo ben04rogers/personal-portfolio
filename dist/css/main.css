@@ -476,6 +476,16 @@ header .hero .hero-btns {
   width: 70px;
 }
 
+.skills .skills-icons li {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.skills .skills-icons li:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
 .contact {
   background: white;
   padding: 3rem 0;
