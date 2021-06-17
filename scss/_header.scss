@@ -70,7 +70,7 @@ header {
               display: block;
               width: 0;
               height: 4px;
-              background: white;
+              background: $color-blue;
               transition: width 0.3s ease;
             }
             .link:hover::after {

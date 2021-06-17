@@ -217,7 +217,7 @@ header nav .mobile-menu .container .mobile-menu-links ul .link::after {
   display: block;
   width: 0;
   height: 4px;
-  background: white;
+  background: #3b82f6;
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
 }
