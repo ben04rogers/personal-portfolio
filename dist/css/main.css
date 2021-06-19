@@ -85,6 +85,7 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   background: #0b63f3;
+  border: 2px solid #0b63f3;
 }
 
 .btn-blue-outline:hover {
