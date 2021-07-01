@@ -18,6 +18,14 @@
     }
     li {
       transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1rem;
+      // margin-bottom: 1rem;
+      margin: 0 0.5rem 1rem 0.5rem;
     }
     li:hover {
       transform: scale(1.3);

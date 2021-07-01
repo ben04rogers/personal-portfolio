@@ -480,6 +480,22 @@ header .hero .hero-btns {
 .skills .skills-icons li {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 1rem;
+  margin: 0 0.5rem 1rem 0.5rem;
 }
 
 .skills .skills-icons li:hover {
