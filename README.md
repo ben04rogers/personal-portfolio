@@ -6,7 +6,7 @@ My personal portfolio site. Can be viewed at www.benrogers.dev
 
 - HTML
 - SCSS
-- Vanilla JavaScript
+- JavaScript
 
 
 ## Acknowledgments
