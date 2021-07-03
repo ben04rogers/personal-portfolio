@@ -2,6 +2,45 @@
   background: white;
   padding: 3rem 0;
 
+  .section-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+
+    .card {
+      background: #fff;
+      width: 260px;
+      margin: 20px;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0 5px 25px grey;
+      border-radius: 10px;
+
+      i {
+        font-size: 3.5rem;
+        color: $color-blue;
+        margin-bottom: 1rem;
+      }
+
+      a {
+        color: black;
+      }
+
+      & > * {
+        margin: 0.5rem;
+      }
+    }
+  }
+
   form {
     h2 {
       text-align: center;
