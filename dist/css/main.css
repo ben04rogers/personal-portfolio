@@ -544,7 +544,7 @@ header .hero .hero-btns {
           flex-direction: column;
   -webkit-box-shadow: 0 5px 25px grey;
           box-shadow: 0 5px 25px grey;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 .contact .card-container .card i {
