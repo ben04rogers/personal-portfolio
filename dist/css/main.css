@@ -551,6 +551,13 @@ header .hero .hero-btns {
   font-size: 3.5rem;
   color: #3b82f6;
   margin-bottom: 1rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.contact .card-container .card i:hover {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .contact .card-container .card a {

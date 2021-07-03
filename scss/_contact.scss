@@ -29,6 +29,11 @@
         font-size: 3.5rem;
         color: $color-blue;
         margin-bottom: 1rem;
+        transition: 0.4s;
+      }
+
+      i:hover {
+        transform: translateY(-20%);
       }
 
       a {
