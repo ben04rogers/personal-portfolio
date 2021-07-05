@@ -550,10 +550,6 @@ header .hero .hero-btns {
           transform: translateY(-20%);
 }
 
-.contact .card-container .card a {
-  color: black;
-}
-
 .contact .card-container .card > * {
   margin: 0.5rem;
 }
