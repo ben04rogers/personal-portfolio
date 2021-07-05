@@ -227,16 +227,6 @@ header nav .mobile-menu .container .mobile-menu-links ul .link:hover::after {
   width: 100%;
 }
 
-header nav.active {
-  background: #3b82f6;
-  -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
-}
-
-header nav.active .container {
-  padding: 0.75rem 1.5rem;
-}
-
 header .hero {
   z-index: 5;
   position: absolute;
