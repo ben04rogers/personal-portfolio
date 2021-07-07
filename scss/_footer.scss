@@ -7,17 +7,22 @@
     display: flex;
     justify-content: space-between;
 
-    span {
+    .top-scroll-button {
       cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
-
       width: 35px;
       height: 35px;
       text-align: center;
       border: 3px solid white;
       border-radius: 50%;
+      transition: 0.3s;
+    }
+
+    .top-scroll-button:hover {
+      color: $color-blue;
+      border: 3px solid $color-blue;
     }
 
     .footer-icon-links a {

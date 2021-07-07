@@ -801,7 +801,7 @@ header .hero .hero-btns {
           justify-content: space-between;
 }
 
-.footer .footer-flex span {
+.footer .footer-flex .top-scroll-button {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -817,6 +817,13 @@ header .hero .hero-btns {
   text-align: center;
   border: 3px solid white;
   border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .footer-flex .top-scroll-button:hover {
+  color: #3b82f6;
+  border: 3px solid #3b82f6;
 }
 
 .footer .footer-flex .footer-icon-links a {
