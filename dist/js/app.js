@@ -6,7 +6,6 @@ const mobileMenu = document.querySelector(".mobile-menu");
 const body = document.querySelector("body");
 const arrow = document.getElementById("arrow-scroll");
 const navbar = document.querySelector("nav");
-window.addEventListener("scroll", resizeNav);
 
 const typedTextOptions = ["developer.", "student."];
 const typingDelay = 100;
@@ -51,33 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // On DOM Load initiate the effect
   if (typedTextOptions.length) setTimeout(type, newTextDelay + 250);
 });
-
-// Mobile Menu
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("open");
-  if (hamburger.classList.contains("open")) {
-    mobileMenu.classList.add("show");
-    // mobileMenu.style.display = 'block';
-    body.classList.add("noscroll");
-  } else {
-    mobileMenu.classList.remove("show");
-    // mobileMenu.style.display = 'none';
-    body.classList.remove("noscroll");
-  }
-});
-
-// Resize and change colour of nav on scroll
-function resizeNav() {
-  if (window.scrollY > navbar.offsetHeight + 150) {
-    navbar.classList.add("active");
-    logoName.classList.remove("text-blue");
-    logoName.classList.add("text-white");
-  } else {
-    navbar.classList.remove("active");
-    logoName.classList.remove("text-white");
-    logoName.classList.add("text-blue");
-  }
-}
 
 window.addEventListener("DOMContentLoaded", function () {
   // get the form elements defined in your form HTML above

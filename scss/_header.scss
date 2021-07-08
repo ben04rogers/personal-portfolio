@@ -95,6 +95,7 @@ header {
     p {
       color: $text-color;
     }
+
     h1 {
       letter-spacing: 2px;
       white-space: nowrap;
@@ -135,6 +136,7 @@ header {
         }
       }
     }
+
     p {
       color: $text-light;
       line-height: 1.6;
@@ -144,10 +146,63 @@ header {
       margin: 0 auto;
       padding: 0.5rem;
     }
+
     .hero-btns {
       white-space: nowrap;
       text-align: center;
       margin-top: 1rem;
+    }
+  }
+
+  .scroll-btn-container {
+    position: absolute;
+    width: 100%;
+    background: red;
+    bottom: 150px;
+
+    div {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      a {
+        // height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        span {
+          display: block;
+          height: 20px;
+          width: 20px;
+          border-bottom: 2px solid $color-blue;
+          border-right: 2px solid $color-blue;
+          transform: rotate(45deg);
+          margin: -20px 0;
+          animation: animate 2s infinite;
+        }
+
+        span:nth-child(2) {
+          animation-delay: -0.2s;
+        }
+
+        span:nth-child(3) {
+          animation-delay: -0.4s;
+        }
+
+        @keyframes animate {
+          0% {
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px, -20px);
+          }
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+            transform: rotate(45deg) translate(20px, 20px);
+          }
+        }
+      }
     }
   }
 }

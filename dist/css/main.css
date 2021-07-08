@@ -439,6 +439,91 @@ header .hero .hero-btns {
   margin-top: 1rem;
 }
 
+header .scroll-btn-container {
+  position: absolute;
+  width: 100%;
+  background: red;
+  bottom: 150px;
+}
+
+header .scroll-btn-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+header .scroll-btn-container div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .scroll-btn-container div a span {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-bottom: 2px solid #3b82f6;
+  border-right: 2px solid #3b82f6;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin: -20px 0;
+  -webkit-animation: animate 2s infinite;
+          animation: animate 2s infinite;
+}
+
+header .scroll-btn-container div a span:nth-child(2) {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+
+header .scroll-btn-container div a span:nth-child(3) {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(-20px, -20px);
+            transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(20px, 20px);
+            transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(-20px, -20px);
+            transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(45deg) translate(20px, 20px);
+            transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
 @media screen and (max-width: 999px) {
   header nav .container {
     padding-bottom: 0.75rem;
