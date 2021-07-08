@@ -25,6 +25,11 @@ a {
   color: white;
 }
 
+.main-font {
+  font-family: 'Alfa Slab One', 'Poppins';
+  font-weight: 400;
+}
+
 .my-1 {
   margin: 1rem 0;
 }
@@ -367,10 +372,14 @@ header .hero h1 {
   white-space: nowrap;
   text-align: center;
   font-size: calc(1.2rem + 3.2vw);
+  font-family: 'Alfa Slab One', 'Poppins';
+  font-weight: 400;
 }
 
 header .hero h1 span.typed-text {
   color: #3b82f6;
+  font-family: 'Alfa Slab One', 'Poppins';
+  font-weight: 400;
 }
 
 header .hero h1 span.cursor {
