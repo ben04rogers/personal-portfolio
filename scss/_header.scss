@@ -17,11 +17,9 @@ header {
       #logo {
         margin: auto 0;
         z-index: 10;
-        letter-spacing: 1px;
-        color: $text-color;
-        font-family: "Poppins", sans-serif;
-        font-size: 2rem;
-        font-weight: 700;
+        img {
+          width: 250px;
+        }
       }
 
       .nav-links {
