@@ -922,12 +922,22 @@ header .scroll-btn-container div a span:nth-child(3) {
 
 .footer .footer-flex .footer-icon-links a {
   margin-left: 2rem;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .footer .footer-flex .footer-icon-links a:hover {
   color: #3b82f6;
+}
+
+.footer .footer-flex .footer-icon-links a i {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer .footer-flex .footer-icon-links a i:hover {
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 @media screen and (max-width: 500px) {

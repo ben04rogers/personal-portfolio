@@ -27,10 +27,16 @@
 
     .footer-icon-links a {
       margin-left: 2rem;
-
-      transition: 0.2s;
+      transition: 0.3s;
       &:hover {
         color: $color-blue;
+      }
+
+      i {
+        transition: 0.3s;
+        &:hover {
+          transform: translateY(-20%);
+        }
       }
     }
   }
