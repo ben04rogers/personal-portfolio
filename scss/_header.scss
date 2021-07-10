@@ -101,12 +101,12 @@ header {
       white-space: nowrap;
       text-align: center;
       font-size: calc(1.2rem + 3.2vw);
-      font-family: 'Alfa Slab One', 'Poppins';
+      font-family: "Alfa Slab One", "Poppins";
       font-weight: 400;
 
       span.typed-text {
         color: $color-blue;
-        font-family: 'Alfa Slab One', 'Poppins';
+        font-family: "Alfa Slab One", "Poppins";
         font-weight: 400;
       }
 
@@ -155,6 +155,33 @@ header {
       white-space: nowrap;
       text-align: center;
       margin-top: 1rem;
+    }
+  }
+
+  .socials {
+    position: absolute;
+    bottom: 250px;
+    left: -125px;
+
+    ul {
+      li {
+        padding: 15px 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        transition: 0.3s;
+
+        font-size: 1.5rem;
+
+        i {
+          font-size: 1.75rem;
+          margin-left: 1.5rem;
+        }
+
+        &:hover {
+          transform: translateX(120px);
+        }
+      }
     }
   }
 

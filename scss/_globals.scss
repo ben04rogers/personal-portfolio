@@ -58,6 +58,23 @@ a {
   color: grey;
 }
 
+.text-dark-grey {
+  color: #2e3031;
+}
+
+// Backgrounds
+.bg-blue {
+  background-color: $color-blue;
+}
+
+.bg-dark-grey {
+  background-color: #2e3031;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 // Buttons
 %btn-shared {
   display: inline-block;

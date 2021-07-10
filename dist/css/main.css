@@ -59,6 +59,22 @@ a {
   color: grey;
 }
 
+.text-dark-grey {
+  color: #2e3031;
+}
+
+.bg-blue {
+  background-color: #3b82f6;
+}
+
+.bg-dark-grey {
+  background-color: #2e3031;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 .btn, .btn-blue, .btn-dark, .btn-blue-outline {
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -372,13 +388,13 @@ header .hero h1 {
   white-space: nowrap;
   text-align: center;
   font-size: calc(1.2rem + 3.2vw);
-  font-family: 'Alfa Slab One', 'Poppins';
+  font-family: "Alfa Slab One", "Poppins";
   font-weight: 400;
 }
 
 header .hero h1 span.typed-text {
   color: #3b82f6;
-  font-family: 'Alfa Slab One', 'Poppins';
+  font-family: "Alfa Slab One", "Poppins";
   font-weight: 400;
 }
 
@@ -446,6 +462,38 @@ header .hero .hero-btns {
   white-space: nowrap;
   text-align: center;
   margin-top: 1rem;
+}
+
+header .socials {
+  position: absolute;
+  bottom: 250px;
+  left: -125px;
+}
+
+header .socials ul li {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+
+header .socials ul li i {
+  font-size: 1.75rem;
+  margin-left: 1.5rem;
+}
+
+header .socials ul li:hover {
+  -webkit-transform: translateX(120px);
+          transform: translateX(120px);
 }
 
 header .scroll-btn-container {
