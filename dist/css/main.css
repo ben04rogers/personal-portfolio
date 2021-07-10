@@ -590,6 +590,9 @@ header .scroll-btn-container div a span:nth-child(3) {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  header .socials {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
