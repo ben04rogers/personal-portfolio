@@ -164,18 +164,26 @@ header {
     left: -125px;
 
     ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
       li {
         padding: 15px 20px;
-        display: flex;
-        justify-content: right;
-        align-items: center;
         transition: 0.3s;
+        width: 100%;
+        display: flex;
+        justify-content: end;
 
         font-size: 1.5rem;
 
-        i {
-          font-size: 1.75rem;
-          margin-left: 1.5rem;
+        a {
+          width: 100%;
+          text-align: right;
+          i {
+            font-size: 1.75rem;
+            margin-left: 1.5rem;
+          }
         }
 
         &:hover {

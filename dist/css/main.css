@@ -470,23 +470,39 @@ header .socials {
   left: -125px;
 }
 
-header .socials ul li {
-  padding: 15px 20px;
+header .socials ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+header .socials ul li {
+  padding: 15px 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   font-size: 1.5rem;
 }
 
-header .socials ul li i {
+header .socials ul li a {
+  width: 100%;
+  text-align: right;
+}
+
+header .socials ul li a i {
   font-size: 1.75rem;
   margin-left: 1.5rem;
 }
