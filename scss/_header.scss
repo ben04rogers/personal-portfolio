@@ -98,15 +98,12 @@ header {
       letter-spacing: 2px;
       white-space: nowrap;
       text-align: center;
-      font-size: calc(1.2rem + 3.2vw);
+      font-size: calc(1rem + 2.8vw);
       font-family: "Alfa Slab One", "Poppins";
       font-weight: 400;
-
-      span.typed-text {
-        color: $color-blue;
-        font-family: "Alfa Slab One", "Poppins";
-        font-weight: 400;
-      }
+      // color: $color-blue;
+      font-family: "Alfa Slab One", "Poppins";
+      font-weight: 400;
 
       span.cursor {
         display: inline-block;

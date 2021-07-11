@@ -390,13 +390,9 @@ header .hero h1 {
   letter-spacing: 2px;
   white-space: nowrap;
   text-align: center;
-  font-size: calc(1.2rem + 3.2vw);
+  font-size: calc(1rem + 2.8vw);
   font-family: "Alfa Slab One", "Poppins";
   font-weight: 400;
-}
-
-header .hero h1 span.typed-text {
-  color: #3b82f6;
   font-family: "Alfa Slab One", "Poppins";
   font-weight: 400;
 }
