@@ -965,6 +965,10 @@ header .scroll-btn-container div a span:nth-child(3) {
           justify-content: space-between;
 }
 
+.footer .footer-flex #logo-footer {
+  width: 200px;
+}
+
 .footer .footer-flex .top-scroll-button {
   cursor: pointer;
   display: -webkit-box;
