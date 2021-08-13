@@ -49,7 +49,7 @@
     }
 
     #webscraper {
-      background-image: url("/dist/img/top10songs.JPG");
+      background-image: url("../img/top10songs.JPG");
       background-size: 100% 100%;
       background-repeat: no-repeat;
       // Background image transition only supported in Chrome, Opera, and Safari. Not firefox.
@@ -58,7 +58,7 @@
     }
 
     #webscraper:hover {
-      background-image: url("/dist/img/top10songs.gif");
+      background-image: url("../img/top10songs.gif");
     }
   }
 }

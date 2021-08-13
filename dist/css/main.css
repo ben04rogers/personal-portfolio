@@ -581,7 +581,7 @@ header .scroll-btn-container div a span:nth-child(3) {
 }
 
 .projects .project-row #webscraper {
-  background-image: url("/dist/img/top10songs.JPG");
+  background-image: url("../img/top10songs.JPG");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   -webkit-transition: background-image 0.2s ease-in-out;
@@ -589,7 +589,7 @@ header .scroll-btn-container div a span:nth-child(3) {
 }
 
 .projects .project-row #webscraper:hover {
-  background-image: url("/dist/img/top10songs.gif");
+  background-image: url("../img/top10songs.gif");
 }
 
 @media screen and (max-width: 860px) {
