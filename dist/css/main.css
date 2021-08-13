@@ -580,6 +580,18 @@ header .scroll-btn-container div a span:nth-child(3) {
   margin-top: 1rem;
 }
 
+.projects .project-row #webscraper {
+  background-image: url("/dist/img/top10songs.JPG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+.projects .project-row #webscraper:hover {
+  background-image: url("/dist/img/top10songs.gif");
+}
+
 @media screen and (max-width: 860px) {
   .projects {
     padding: 0 2rem;
@@ -599,6 +611,24 @@ header .scroll-btn-container div a span:nth-child(3) {
   }
   .projects .project-row .project-right {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-left {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .project-left {
+    min-height: 300px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 859px) {
+  .project-left {
+    min-height: 350px;
   }
 }
 
