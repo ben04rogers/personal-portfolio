@@ -145,127 +145,6 @@ a {
   }
 }
 
-.button_su {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  border-radius: 3px;
-  margin-bottom: 30px;
-}
-
-.su_button_circle {
-  background-color: red;
-  border-radius: 1000px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0px;
-  height: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  pointer-events: none;
-  /*animation-timing-function: ease-in-out; */
-}
-
-.button_su_inner {
-  display: inline-block;
-  background: #f8b627;
-  color: #f4f4f4;
-  font-size: 16px;
-  font-weight: normal;
-  width: 132px;
-  text-align: center;
-  border-radius: 3px;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-  text-decoration: none;
-  padding: 22px;
-  z-index: 100000;
-}
-
-.button_text_container {
-  position: relative;
-  z-index: 10000;
-}
-
-.explode-circle {
-  -webkit-animation: explode 0.5s forwards;
-          animation: explode 0.5s forwards;
-}
-
-.desplode-circle {
-  -webkit-animation: desplode 0.5s forwards;
-          animation: desplode 0.5s forwards;
-}
-
-@-webkit-keyframes explode {
-  0% {
-    width: 0px;
-    height: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: rgba(42, 53, 80, 0.2);
-  }
-  100% {
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-    margin-top: -200px;
-    background-color: rgba(20, 180, 87, 0.8);
-  }
-}
-
-@keyframes explode {
-  0% {
-    width: 0px;
-    height: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: rgba(42, 53, 80, 0.2);
-  }
-  100% {
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-    margin-top: -200px;
-    background-color: rgba(20, 180, 87, 0.8);
-  }
-}
-
-@-webkit-keyframes desplode {
-  0% {
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-    margin-top: -200px;
-    background-color: rgba(20, 180, 87, 0.8);
-  }
-  100% {
-    width: 0px;
-    height: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: rgba(129, 80, 108, 0.6);
-  }
-}
-
-@keyframes desplode {
-  0% {
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-    margin-top: -200px;
-    background-color: rgba(20, 180, 87, 0.8);
-  }
-  100% {
-    width: 0px;
-    height: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    background-color: rgba(129, 80, 108, 0.6);
-  }
-}
-
 header {
   background: #181a1b;
   background-size: cover;
@@ -701,6 +580,18 @@ header .scroll-btn-container div a span:nth-child(3) {
   margin-top: 1rem;
 }
 
+.projects .project-row #webscraper {
+  background-image: url("../img/top10songs.JPG");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out;
+}
+
+.projects .project-row #webscraper:hover {
+  background-image: url("../img/top10songs.gif");
+}
+
 @media screen and (max-width: 860px) {
   .projects {
     padding: 0 2rem;
@@ -720,6 +611,24 @@ header .scroll-btn-container div a span:nth-child(3) {
   }
   .projects .project-row .project-right {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project-left {
+    min-height: 200px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .project-left {
+    min-height: 300px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 859px) {
+  .project-left {
+    min-height: 350px;
   }
 }
 
