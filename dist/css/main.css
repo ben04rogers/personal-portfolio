@@ -488,7 +488,51 @@ header .scroll-btn-container div a span:nth-child(3) {
             justify-content: center;
   }
   header .socials {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  header .socials ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .socials ul > :last-child {
+    background: #f0f0f0;
+  }
+  header .socials ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  header .socials ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .socials ul li a .socials-text {
     display: none;
+  }
+  header .socials ul li a i {
+    margin: 0;
+  }
+  header .socials ul li:hover {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 

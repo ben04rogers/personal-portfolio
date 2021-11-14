@@ -256,7 +256,44 @@ header {
     }
 
     .socials {
-      display: none;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+      
+      ul {
+        flex-direction: row;
+
+        & > :last-child {
+          background: #f0f0f0;
+        }
+
+        li {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .socials-text {
+              display: none;
+            }
+
+            i {
+              margin: 0;
+            }
+          }
+
+          &:hover {
+            transform: translateX(0);
+          }
+        }
+      }
     }
   }
 }
