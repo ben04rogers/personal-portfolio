@@ -637,9 +637,6 @@ header .scroll-btn-container div a span:nth-child(3) {
 }
 
 @media screen and (max-width: 860px) {
-  .projects {
-    padding: 0 2rem;
-  }
   .projects .project-row {
     display: -webkit-box;
     display: -ms-flexbox;
