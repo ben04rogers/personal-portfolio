@@ -669,6 +669,7 @@ header .scroll-btn-container div a span:nth-child(3) {
   border: 1px solid black;
   padding: 0.75rem;
   font-size: 1rem;
+  resize: vertical;
 }
 
 .contact form .form-group textarea:focus {
