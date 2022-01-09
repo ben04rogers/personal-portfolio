@@ -304,7 +304,7 @@ header .hero .hero-btns {
 
 header .socials {
   position: absolute;
-  bottom: 250px;
+  bottom: 40%;
   left: -125px;
 }
 
@@ -400,37 +400,7 @@ header .scroll-btn-container div a span:nth-child(3) {
     justify-content: center;
   }
   header .socials {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-  }
-  header .socials ul {
-    flex-direction: row;
-  }
-  header .socials ul > :last-child {
-    background: #f0f0f0;
-  }
-  header .socials ul li {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-  header .socials ul li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  header .socials ul li a .socials-text {
     display: none;
-  }
-  header .socials ul li a i {
-    margin: 0;
-  }
-  header .socials ul li:hover {
-    transform: translateX(0);
   }
 }
 
