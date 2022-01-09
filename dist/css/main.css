@@ -337,7 +337,7 @@ header .socials ul li a i {
 }
 
 header .socials ul li:hover {
-  transform: translateX(120px);
+  transform: translateX(100px);
 }
 
 header .scroll-btn-container {
@@ -538,13 +538,12 @@ header .scroll-btn-container div a span:nth-child(3) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 700px;
   margin: 0 auto;
 }
 
 .skills .skills-icons svg {
-  margin: 0.75rem;
-  width: 70px;
+  margin: 0.5rem;
+  width: 90px;
 }
 
 .skills .skills-icons li {
@@ -555,11 +554,15 @@ header .scroll-btn-container div a span:nth-child(3) {
   align-items: center;
   color: white;
   font-size: 1rem;
-  margin: 0 0.5rem 1rem 0.5rem;
+  margin: 2rem 0;
 }
 
 .skills .skills-icons li:hover {
   transform: scale(1.3);
+}
+
+.skills .skills-icons > *:not(:last-child) {
+  margin-right: 2rem;
 }
 
 .contact {
