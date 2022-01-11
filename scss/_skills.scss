@@ -25,6 +25,12 @@
       color: white;
       font-size: 1rem;
       margin: 2rem 0;
+
+      .aws-logo {
+        background: white;
+        padding: 10px;
+        border-radius: 3px;
+      }
     }
     li:hover {
       transform: scale(1.3);
