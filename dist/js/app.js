@@ -46,3 +46,20 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
+const backToTopBtn = $("#backToTopBtn");
+
+// Back to top arrow button
+$(window).scroll(function () {
+  if ($(window).scrollTop() > 300) {
+    backToTopBtn.addClass("show");
+    console.log("here");
+  } else {
+    backToTopBtn.removeClass("show");
+  }
+});
+
+backToTopBtn.on("click", function (e) {
+  e.preventDefault();
+  $("html, body").animate({ scrollTop: 0 }, "300");
+});

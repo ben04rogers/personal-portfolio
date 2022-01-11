@@ -127,6 +127,21 @@ a {
   }
 }
 
+#backToTopBtn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 0.5rem 0.9rem;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 .blue-link-underline {
   color: #0b63f3;
   border-bottom: 1px solid #0b63f3;
