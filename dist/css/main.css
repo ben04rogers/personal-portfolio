@@ -356,7 +356,7 @@ header .socials ul li a i {
 }
 
 header .socials ul li:hover {
-  transform: translateX(100px);
+  transform: translateX(115px);
 }
 
 header .scroll-btn-container {
