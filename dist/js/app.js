@@ -47,9 +47,10 @@ function ajax(method, url, data, success, error) {
   xhr.send(data);
 }
 
+// Back to top arrow button
+
 const backToTopBtn = $("#backToTopBtn");
 
-// Back to top arrow button
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     backToTopBtn.addClass("show");
