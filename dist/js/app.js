@@ -53,7 +53,6 @@ const backToTopBtn = $("#backToTopBtn");
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     backToTopBtn.addClass("show");
-    console.log("here");
   } else {
     backToTopBtn.removeClass("show");
   }
