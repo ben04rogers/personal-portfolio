@@ -1,8 +1,5 @@
 const logoName = document.getElementById("logo-name");
-const hamburger = document.getElementById("hamburger");
-const mobileMenu = document.querySelector(".mobile-menu");
 const body = document.querySelector("body");
-const arrow = document.getElementById("arrow-scroll");
 const navbar = document.querySelector("nav");
 
 window.addEventListener("DOMContentLoaded", function () {
