@@ -12,12 +12,12 @@ window.addEventListener("DOMContentLoaded", function () {
   function success() {
     form.reset();
     status.classList.add("success");
-    status.innerHTML = "Thanks!";
+    status.innerHTML = "Email sent successfully!";
   }
 
   function error() {
     status.classList.add("error");
-    status.innerHTML = "Oops! There was a problem.";
+    status.innerHTML = "There was a problem. Please try again.";
   }
 
   // Handle the form submission event

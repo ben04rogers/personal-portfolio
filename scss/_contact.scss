@@ -104,17 +104,18 @@
     #status {
       width: 100%;
       text-align: center;
-      padding: 10px;
+      // padding: 10px;
       margin: 0 auto;
-      border-radius: 3x;
+      border-radius: 3px;
+      color: #00b700;
     }
     #status.success {
-      background-color: rgb(211, 250, 153);
+      // background-color: rgb(211, 250, 153);
       animation: status 4s ease forwards;
     }
     #status.error {
-      background-color: rgb(250, 129, 92);
-      color: white;
+      // background-color: rgb(250, 129, 92);
+      color: red;
       animation: status 4s ease forwards;
     }
     @keyframes status {

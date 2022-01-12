@@ -693,19 +693,17 @@ header .scroll-btn-container div a span:nth-child(3) {
 .contact form #status {
   width: 100%;
   text-align: center;
-  padding: 10px;
   margin: 0 auto;
-  border-radius: 3x;
+  border-radius: 3px;
+  color: #00b700;
 }
 
 .contact form #status.success {
-  background-color: #d3fa99;
   animation: status 4s ease forwards;
 }
 
 .contact form #status.error {
-  background-color: #fa815c;
-  color: white;
+  color: red;
   animation: status 4s ease forwards;
 }
 
