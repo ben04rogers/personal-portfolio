@@ -265,6 +265,10 @@ header {
   .hero {
     width: 80%;
   }
+
+  header nav .nav-container #logo img {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 500px) {
