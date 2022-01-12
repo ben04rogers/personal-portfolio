@@ -370,7 +370,22 @@
             <textarea name="message" id="message" rows="7" placeholder="Message" required></textarea>
           </div>
 
-          <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT</button>
+          <button type="submit" class="btn-email">
+            <span class="default">Send Email</span>
+            <span class="success">
+                <svg viewBox="0 0 16 16">
+                    <polyline points="3.75 9 7 12 13 5"></polyline>
+                </svg>Sent
+            </span>
+            <svg class="trails" viewBox="0 0 33 64">
+                <path d="M26,4 C28,13.3333333 29,22.6666667 29,32 C29,41.3333333 28,50.6666667 26,60"></path>
+                <path d="M6,4 C8,13.3333333 9,22.6666667 9,32 C9,41.3333333 8,50.6666667 6,60"></path>
+            </svg>
+            <div class="plane">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+          </button>
           <div id="status"></div>
         </form>
       </div>
@@ -404,6 +419,9 @@
 
     <!-- Particles.js for hero section -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 
     <script>
       particlesJS.load('particles-js', './particles.json', function(){

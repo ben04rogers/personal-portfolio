@@ -84,23 +84,24 @@
     }
 
     button {
-      width: 100%;
-      margin: 0.75rem 0;
-      padding: 0.75rem 0;
-      border-radius: 3px;
-      border: none;
-      background: $color-blue;
-      color: white;
-      cursor: pointer;
-      font-size: 1rem;
-      font-weight: bold;
-      letter-spacing: 1.5px;
-      transition: all 0.3s ease;
+      // width: 100%;
+      // margin: 0.75rem 0;
+      // padding: 0.75rem 0;
+      // border-radius: 3px;
+      // border: none;
+      // background: $color-blue;
+      // color: white;
+      // cursor: pointer;
+      // font-size: 1rem;
+      // font-weight: bold;
+      // letter-spacing: 1.5px;
+      // transition: all 0.3s ease;
     }
 
-    button:hover {
-      background: darken($color-blue, 10%);
-    }
+    // button:hover {
+    //   background: darken($color-blue, 10%);
+    // }
+
     #status {
       width: 100%;
       text-align: center;
@@ -110,11 +111,10 @@
       color: #00b700;
     }
     #status.success {
-      // background-color: rgb(211, 250, 153);
+      color: #00b700;
       animation: status 4s ease forwards;
     }
     #status.error {
-      // background-color: rgb(250, 129, 92);
       color: red;
       animation: status 4s ease forwards;
     }
