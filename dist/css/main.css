@@ -612,7 +612,7 @@ header .scroll-btn-container div a span:nth-child(3) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 5px 25px grey;
+  box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
   border-radius: 3px;
 }
 
@@ -635,7 +635,7 @@ header .scroll-btn-container div a span:nth-child(3) {
   max-width: 600px;
   margin: 0 auto;
   border-radius: 3px;
-  box-shadow: 0 5px 25px grey;
+  box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
   padding: 2rem;
 }
 
