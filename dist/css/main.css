@@ -407,8 +407,10 @@ header nav .nav-container .nav-links .link::after {
   content: "";
   position: relative;
   display: block;
-  width: 0;
-  height: 3px;
+  width: 0%;
+  height: 2px;
+  top: 3px;
+  margin: auto;
   background: #3b82f6;
   transition: width 0.3s ease;
 }
@@ -436,7 +438,9 @@ header nav .mobile-menu .container .mobile-menu-links ul .link::after {
   position: relative;
   display: block;
   width: 0;
-  height: 4px;
+  height: 2px;
+  top: 3px;
+  margin: auto;
   background: #3b82f6;
   transition: width 0.3s ease;
 }
