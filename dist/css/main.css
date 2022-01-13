@@ -739,7 +739,8 @@ header .seperator-skew svg .fill-white {
 }
 
 .skills {
-  padding: 3rem 0;
+  padding: 6rem 0;
+  position: relative;
 }
 
 .skills h2 {
@@ -779,6 +780,45 @@ header .seperator-skew svg .fill-white {
 
 .skills .skills-icons li:hover {
   transform: scale(1.3);
+}
+
+.skills .seperator-skew-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.skills .seperator-skew-top svg {
+  position: absolute;
+  top: 0;
+  transform: scaleY(-1) scaleX(-1);
+}
+
+.skills .seperator-skew-top svg .fill-white {
+  fill: white;
+}
+
+.skills .seperator-skew-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.skills .seperator-skew-bottom svg {
+  position: absolute;
+  bottom: 0;
+}
+
+.skills .seperator-skew-bottom svg .fill-white {
+  fill: white;
 }
 
 .contact {

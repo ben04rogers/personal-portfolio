@@ -1,5 +1,6 @@
 .skills {
-  padding: 3rem 0;
+  padding: 6rem 0;
+  position: relative;
   h2 {
     text-align: center;
     margin-bottom: 3rem;
@@ -34,6 +35,43 @@
     }
     li:hover {
       transform: scale(1.3);
+    }
+  }
+
+  .seperator-skew-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+
+    svg {
+      position: absolute;
+      top: 0;
+      transform: scaleY(-1) scaleX(-1);
+      .fill-white {
+        fill: white;
+      }
+    }
+  }
+
+  .seperator-skew-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      .fill-white {
+        fill: white;
+      }
     }
   }
 }
