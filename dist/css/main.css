@@ -137,6 +137,12 @@ a {
   visibility: visible;
 }
 
+.section-subtext {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
 .btn-email {
   --primary: #3b82f6;
   --primary-dark: #0455d8;
@@ -736,6 +742,67 @@ header .seperator-skew svg .fill-white {
   .project-left {
     min-height: 350px;
   }
+}
+
+.education {
+  background: white;
+  padding-bottom: 3rem;
+}
+
+.education h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 3rem;
+}
+
+.education .education-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.education .education-card > *:last-child {
+  margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+  .education .education-card {
+    padding: 20px;
+  }
+}
+
+.education .education-card .education-card-column {
+  display: flex;
+}
+
+.education .education-card .education-card-column .card-column-image {
+  flex: 0 0 20%;
+}
+
+.education .education-card .education-card-column .card-column-image img {
+  width: 100%;
+}
+
+.education .education-card .education-card-column .card-column-large {
+  flex: 0 0 80%;
+  padding-left: 1.5rem;
+}
+
+.education .education-card .education-card-column .card-column-large > * {
+  margin: 0.25rem 0;
+}
+
+.education .education-card .education-card-column .card-column-large ul {
+  padding-left: 1.5rem;
+}
+
+.education .education-card .education-card-column .card-column-large hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
 }
 
 .skills {
