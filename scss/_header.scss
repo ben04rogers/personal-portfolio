@@ -222,10 +222,16 @@ header {
 
   .seperator-skew {
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     left: 0;
     right: 0;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+
     svg {
+      position: absolute;
+      bottom: 0;
       .fill-white {
         fill: white;
       }
