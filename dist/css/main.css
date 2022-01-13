@@ -795,6 +795,10 @@ header .seperator-skew svg .fill-white {
   margin: 0.25rem 0;
 }
 
+.education .education-card .education-card-column .card-column-large h4 {
+  font-weight: normal;
+}
+
 .education .education-card .education-card-column .card-column-large ul {
   padding-left: 1.5rem;
 }
