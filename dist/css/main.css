@@ -739,13 +739,18 @@ header .seperator-skew svg .fill-white {
 }
 
 .skills {
-  padding: 6rem 0;
+  padding: 3rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .skills h2 {
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.skills .container {
+  padding: 6rem 0;
 }
 
 .skills .skills-icons {
@@ -784,11 +789,11 @@ header .seperator-skew svg .fill-white {
 
 .skills .seperator-skew-top {
   position: absolute;
-  top: 0;
+  top: -0.5px;
   left: 0;
   right: 0;
   height: 150px;
-  width: 100%;
+  width: 120%;
   overflow: hidden;
 }
 
@@ -804,11 +809,11 @@ header .seperator-skew svg .fill-white {
 
 .skills .seperator-skew-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -0.5px;
   left: 0;
   right: 0;
   height: 150px;
-  width: 100%;
+  width: 120%;
   overflow: hidden;
 }
 
