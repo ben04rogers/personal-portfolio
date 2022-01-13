@@ -359,11 +359,12 @@ a {
 header {
   background: #181a1b;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
+  position: relative;
 }
 
 header #particles-js {
-  height: 100vh;
+  height: 80vh;
 }
 
 header nav {
@@ -581,6 +582,17 @@ header .scroll-btn-container div a span:nth-child(3) {
     opacity: 0;
     transform: rotate(45deg) translate(20px, 20px);
   }
+}
+
+header .seperator-skew {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+}
+
+header .seperator-skew svg .fill-white {
+  fill: white;
 }
 
 @media screen and (max-width: 999px) {

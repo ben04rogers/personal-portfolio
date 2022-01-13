@@ -1,10 +1,11 @@
 header {
   background: $dark-grey;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 80vh;
+  position: relative;
 
   #particles-js {
-    height: 100vh;
+    height: 80vh;
   }
 
   nav {
@@ -215,6 +216,18 @@ header {
             transform: rotate(45deg) translate(20px, 20px);
           }
         }
+      }
+    }
+  }
+
+  .seperator-skew {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    svg {
+      .fill-white {
+        fill: white;
       }
     }
   }
