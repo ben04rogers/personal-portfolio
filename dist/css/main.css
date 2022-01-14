@@ -749,13 +749,17 @@ header .seperator-skew svg .fill-white {
   padding-bottom: 3rem;
 }
 
-.education h2 {
+.education .container {
+  max-width: 900px;
+}
+
+.education .container h2 {
   text-align: center;
   color: black;
   margin-bottom: 3rem;
 }
 
-.education .education-card {
+.education .container .education-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -764,46 +768,46 @@ header .seperator-skew svg .fill-white {
   border-radius: 3px;
 }
 
-.education .education-card > *:last-child {
+.education .container .education-card > *:last-child {
   margin-top: 40px;
 }
 
 @media (max-width: 500px) {
-  .education .education-card {
+  .education .container .education-card {
     padding: 20px;
   }
 }
 
-.education .education-card .education-card-column {
+.education .container .education-card .education-card-column {
   display: flex;
 }
 
-.education .education-card .education-card-column .card-column-image {
+.education .container .education-card .education-card-column .card-column-image {
   flex: 0 0 20%;
 }
 
-.education .education-card .education-card-column .card-column-image img {
+.education .container .education-card .education-card-column .card-column-image img {
   width: 100%;
 }
 
-.education .education-card .education-card-column .card-column-large {
+.education .container .education-card .education-card-column .card-column-large {
   flex: 0 0 80%;
   padding-left: 1.5rem;
 }
 
-.education .education-card .education-card-column .card-column-large > * {
+.education .container .education-card .education-card-column .card-column-large > * {
   margin: 0.25rem 0;
 }
 
-.education .education-card .education-card-column .card-column-large h4 {
+.education .container .education-card .education-card-column .card-column-large h4 {
   font-weight: normal;
 }
 
-.education .education-card .education-card-column .card-column-large ul {
+.education .container .education-card .education-card-column .card-column-large ul {
   padding-left: 1.5rem;
 }
 
-.education .education-card .education-card-column .card-column-large hr {
+.education .container .education-card .education-card-column .card-column-large hr {
   border: 0;
   border-top: 1px solid #eee;
   margin-top: 40px;
