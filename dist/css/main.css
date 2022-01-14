@@ -401,7 +401,7 @@ header nav .nav-container .nav-links li {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 header nav .nav-container .nav-links a {
