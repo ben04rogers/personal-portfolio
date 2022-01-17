@@ -25,9 +25,9 @@
     />
     <link rel="icon" href="/img/favicon.png" type="image/png">
 
-    <!-- Animation library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <!-- Animation library styles -->    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Iconify Icons -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     
@@ -37,7 +37,7 @@
     <!-- HEADER -->
     <header id="header">
       <div id="particles-js">
-        <nav id="nav" class="wow animate__animated animate__fadeInDown">
+        <nav id="nav" data-aos="fade-in">
           <div class="container nav-container">
             <a href="index.html" id="logo">
               <img src="img/logo.png" alt="logo">
@@ -108,7 +108,8 @@
         </nav>
 
         <!-- HERO -->
-        <div class="hero wow animate__animated animate__fadeIn">
+        <div class="hero">
+          <div data-aos="fade-up">
             <h1 class="h1">
               
               <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
@@ -123,10 +124,11 @@
                 target="_blank"><i class="fab fa-github"></i> Github</a
               >
             </div>
+          </div>
         </div>
 
         <!-- SOCIAL LINKS -->
-        <div class="socials wow animate__animated animate__fadeInLeft">
+        <div class="socials" data-aos="fade-in"> 
           <ul>
             <li class="bg-blue"><a href="https://www.linkedin.com/in/ben-rogers-a3b013140/"
               target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
@@ -158,7 +160,7 @@
     <section id="projects" class="projects">
       <div class="container">
         <h2 class="main-font">My <span class="text-blue main-font">Projects</span></h2>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="/img/cryptocrowd2.png" alt="">
           </div>
@@ -181,7 +183,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".1s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="/img/asset-trading.png" alt="">
           </div>
@@ -200,7 +202,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".2s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="img/euphorus.png" alt="">
           </div>
@@ -221,7 +223,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".3s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="img/euphorus-backend.png" alt="">
           </div>
@@ -245,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".4s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left" >
             <img src="img/techprowl2.png" alt="">
           </div>
@@ -266,7 +268,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".5s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="img/bfsproject.JPG" alt="">
           </div>
@@ -284,7 +286,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".6s">
+        <div class="project-row" data-aos="fade-up">
           <div class="project-left">
             <img src="img/flyingpostman.png" alt="">
           </div>
@@ -302,7 +304,7 @@
             </div>
           </div>
         </div>
-        <div class="project-row wow animate__animated animate__fadeIn" data-wow-delay=".7s">
+        <div class="project-row" data-aos="fade-up">
           <div id="webscraper" class="project-left">
             <!-- <img src="img/top10songs.JPG" alt="web scraper" class="h-100"> -->
           </div>
@@ -362,7 +364,7 @@
 
      <!-- Education -->
      <section id="education" class="education">
-      <div class="container wow animate__animated animate__fadeIn">
+      <div class="container" data-aos="zoom-in">
         <h2 class="main-font">My <span class="text-blue main-font">Education</span></h2>
 
         <div class="education-card">
@@ -409,27 +411,27 @@
     <!-- CONTACT -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2 class="section-title wow animate__animated animate__fadeIn main-font">Contact <span class="text-blue main-font">Me</span></h2>
+        <h2 class="section-title main-font">Contact <span class="text-blue main-font">Me</span></h2>
         <div class="card-container">
-          <div class="card wow animate__animated animate__fadeInDown">
+          <div class="card" data-aos="fade-in">
             <i class="fas fa-envelope"></i>
             <h3>Email</h3>
             <p>benrogers1299@outlook.com</p>
           </div>
-          <div class="card wow animate__animated animate__fadeInDown" data-wow-delay=".25s">
+          <div class="card" data-aos="fade-in" data-aos-delay="100">
             <i class="fab fa-github"></i
               >
             <h3>GitHub</h3>
             <a href="https://github.com/ben04rogers" class="text-blue" target="_blank">ben04rogers</a>
           </div>
-          <div class="card wow animate__animated animate__fadeInDown" data-wow-delay=".5s">
+          <div class="card" data-aos="fade-in" data-aos-delay="200">
             <i class="fab fa-linkedin"></i>
             <h3>LinkedIn</h3>
             <a href="https://www.linkedin.com/in/ben-rogers-dev/" class="text-blue" target="_blank">ben-rogers-dev</a>
           </div>
         </div>
         
-        <form id="contact-form" class="wow animate__animated animate__fadeIn" data-wow-delay=".75s" action="https://formspree.io/f/mjvjylnp" method="POST">
+        <form id="contact-form" data-aos="zoom-in" data-aos-delay="300" action="https://formspree.io/f/mjvjylnp" method="POST">
           <h2 class="main-font">Send <span class="text-blue main-font">Email</span></h2>
 
           <div class="form-group">
@@ -502,8 +504,14 @@
         console.log("particles.josn loaded...")
       })
     </script>
+
     <script defer src="js/app.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
+
+    <!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>
