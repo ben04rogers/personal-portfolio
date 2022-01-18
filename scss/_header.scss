@@ -123,7 +123,7 @@ header {
     p {
       color: $text-light;
       line-height: 1.6;
-      font-size: calc(14px + 0.5vw);
+      font-size: clamp(1.25rem, 2vw, 1.5rem);
       text-align: center;
       width: 80%;
       margin: 0 auto;

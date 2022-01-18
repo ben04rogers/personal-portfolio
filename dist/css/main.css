@@ -493,7 +493,7 @@ header .hero h1 {
 header .hero p {
   color: #dcdcdc;
   line-height: 1.6;
-  font-size: calc(14px + 0.5vw);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
   text-align: center;
   width: 80%;
   margin: 0 auto;
