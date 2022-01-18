@@ -65,6 +65,8 @@ header {
     }
 
     .mobile-menu {
+      position: relative;
+      z-index: 1000;
       .container {
         padding-top: 0;
         .mobile-menu-links {

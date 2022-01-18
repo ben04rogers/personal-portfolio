@@ -436,6 +436,11 @@ header nav .nav-container .nav-links .link:hover::after {
   width: 100%;
 }
 
+header nav .mobile-menu {
+  position: relative;
+  z-index: 1000;
+}
+
 header nav .mobile-menu .container {
   padding-top: 0;
 }
