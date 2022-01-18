@@ -1,11 +1,11 @@
 header {
   background: $dark-grey;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 80vh;
   position: relative;
 
   #particles-js {
-    height: 70vh;
+    height: 80vh;
     position: relative;
 
     canvas {
@@ -308,6 +308,16 @@ header {
       p {
         width: 100%;
       }
+    }
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  header {
+    min-height: 70vh;
+
+    #particles-js {
+      height: 70vh;
     }
   }
 }

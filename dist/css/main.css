@@ -365,12 +365,12 @@ a {
 header {
   background: #181a1b;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 80vh;
   position: relative;
 }
 
 header #particles-js {
-  height: 70vh;
+  height: 80vh;
   position: relative;
 }
 
@@ -655,6 +655,15 @@ header .seperator-skew svg .fill-white {
   }
   header .hero p {
     width: 100%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  header {
+    min-height: 70vh;
+  }
+  header #particles-js {
+    height: 70vh;
   }
 }
 
