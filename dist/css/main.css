@@ -483,7 +483,7 @@ header .hero h1 {
   letter-spacing: 2px;
   white-space: nowrap;
   text-align: center;
-  font-size: calc(1rem + 2.8vw);
+  font-size: clamp(2rem, 5vw, 4.25rem);
   font-family: "Alfa Slab One", "Poppins";
   font-weight: 400;
   font-family: "Alfa Slab One", "Poppins";
@@ -495,7 +495,7 @@ header .hero p {
   line-height: 1.6;
   font-size: clamp(1.25rem, 2vw, 1.5rem);
   text-align: center;
-  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   padding: 0.5rem;
 }
