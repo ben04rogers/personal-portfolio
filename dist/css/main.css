@@ -626,7 +626,7 @@ header .seperator-skew svg .fill-white {
   header nav .nav-container {
     justify-content: center;
   }
-  header nav .hero {
+  header .hero {
     top: 55%;
   }
   header .socials {
