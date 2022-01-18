@@ -365,12 +365,12 @@ a {
 header {
   background: #181a1b;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 70vh;
   position: relative;
 }
 
 header #particles-js {
-  height: 80vh;
+  height: 70vh;
   position: relative;
 }
 
