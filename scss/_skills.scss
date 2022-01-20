@@ -17,11 +17,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    // max-width: 700px;
+    max-width: 1100px;
     margin: 0 auto;
     svg {
       margin: 0.5rem;
       width: 90px;
+
+      @media (max-width: 420px) {
+        width: 70px;
+      }
     }
     li {
       transition: 0.3s;
@@ -32,6 +36,10 @@
       color: white;
       font-size: 1rem;
       margin: 1rem;
+
+      @media (max-width: 420px) {
+        margin: 1rem 0.75rem;
+      }
 
       .aws-logo {
         background: white;

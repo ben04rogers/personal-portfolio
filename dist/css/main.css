@@ -860,12 +860,19 @@ header .seperator-skew svg .fill-white {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .skills .skills-icons svg {
   margin: 0.5rem;
   width: 90px;
+}
+
+@media (max-width: 420px) {
+  .skills .skills-icons svg {
+    width: 70px;
+  }
 }
 
 .skills .skills-icons li {
@@ -877,6 +884,12 @@ header .seperator-skew svg .fill-white {
   color: white;
   font-size: 1rem;
   margin: 1rem;
+}
+
+@media (max-width: 420px) {
+  .skills .skills-icons li {
+    margin: 1rem 0.75rem;
+  }
 }
 
 .skills .skills-icons li .aws-logo {
