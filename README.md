@@ -8,8 +8,8 @@ My personal portfolio site. Can be viewed at www.benrogers.dev
 - SCSS
 - JavaScript
 
-
 ## Acknowledgments
 
-* [WOW.js](https://mynameismatthieu.com/WOW/) - Scrolling animation
-* [Font Awesome](https://fontawesome.com/?from=io/) - Icons used
+- [GSAP](https://greensock.com/gsap/) - Contact form animation
+- [AOS](https://github.com/michalsnik/aos) - Scroll animations
+- [Iconify](https://iconify.design/) - Icons used
