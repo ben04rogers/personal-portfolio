@@ -13,4 +13,4 @@ My personal portfolio site. Can be viewed at www.benrogers.dev
 - [GSAP](https://greensock.com/gsap/) - Contact form animation
 - [AOS](https://github.com/michalsnik/aos) - Scroll animations
 - [Iconify](https://iconify.design/) - Icons used
-- [FormSpree](https://formspree.io/) - Contact Form
+- [Formspree](https://formspree.io/) - Contact Form
