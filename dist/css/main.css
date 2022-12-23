@@ -917,6 +917,8 @@ header .seperator-skew svg .fill-white {
   justify-content: center;
   max-width: 1100px;
   margin: 0 auto;
+  position: relative;
+  z-index: 10;
 }
 
 .skills .skills-icons svg {
