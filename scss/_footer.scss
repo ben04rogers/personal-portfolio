@@ -3,6 +3,16 @@
   padding: 1.5rem 0;
   color: white;
 
+  // Particles.js canvas
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .footer-flex {
     display: flex;
     justify-content: space-between;
