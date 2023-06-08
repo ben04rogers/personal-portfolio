@@ -81,10 +81,7 @@ a {
   background-color: white;
 }
 
-.btn,
-.btn-blue,
-.btn-dark,
-.btn-blue-outline {
+.btn, .btn-blue, .btn-dark, .btn-blue-outline {
   display: inline-block;
   padding: 0.8rem 1.5rem;
   transition: all 0.3s;
@@ -226,8 +223,7 @@ a {
   right: 0;
   bottom: 0;
   filter: drop-shadow(0 3px 6px var(--shadow));
-  transform: translate(calc(var(--x) * 1px), calc(var(--y) * 1px))
-    rotate(calc(var(--rotate) * 1deg)) translateZ(0);
+  transform: translate(calc(var(--x) * 1px), calc(var(--y) * 1px)) rotate(calc(var(--rotate) * 1deg)) translateZ(0);
 }
 
 .btn-email .plane .left,
@@ -238,12 +234,10 @@ a {
   right: 0;
   bottom: 0;
   opacity: var(--plane-opacity);
-  transform: translate(calc(var(--plane-x) * 1px), calc(var(--plane-y) * 1px))
-    translateZ(0);
+  transform: translate(calc(var(--plane-x) * 1px), calc(var(--plane-y) * 1px)) translateZ(0);
 }
 
-.btn-email .plane .left:before,
-.btn-email .plane .left:after,
+.btn-email .plane .left:before, .btn-email .plane .left:after,
 .btn-email .plane .right:before,
 .btn-email .plane .right:after {
   content: "";
@@ -256,14 +250,7 @@ a {
   transform: translate(var(--part-x, 0.4%), var(--part-y, 0)) translateZ(0);
   z-index: var(--z-index, 2);
   background: var(--background, var(--left-wing-background));
-  clip-path: polygon(
-    calc(var(--first-x, var(--left-wing-first-x)) * 1%)
-      calc(var(--first-y, var(--left-wing-first-y)) * 1%),
-    calc(var(--second-x, var(--left-wing-second-x)) * 1%)
-      calc(var(--second-y, var(--left-wing-second-y)) * 1%),
-    calc(var(--third-x, var(--left-wing-third-x)) * 1%)
-      calc(var(--third-y, var(--left-wing-third-y)) * 1%)
-  );
+  clip-path: polygon(calc(var(--first-x, var(--left-wing-first-x)) * 1%) calc(var(--first-y, var(--left-wing-first-y)) * 1%), calc(var(--second-x, var(--left-wing-second-x)) * 1%) calc(var(--second-y, var(--left-wing-second-y)) * 1%), calc(var(--third-x, var(--left-wing-third-x)) * 1%) calc(var(--third-y, var(--left-wing-third-y)) * 1%));
 }
 
 .btn-email .plane .left:after {
@@ -822,65 +809,32 @@ header .seperator-skew svg .fill-white {
   display: flex;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-image {
+.education .container .education-card .education-card-column .card-column-image {
   flex: 0 0 20%;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-image
-  img {
+.education .container .education-card .education-card-column .card-column-image img {
   width: 100%;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-large {
+.education .container .education-card .education-card-column .card-column-large {
   flex: 0 0 80%;
   padding-left: 1.5rem;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-large
-  > * {
+.education .container .education-card .education-card-column .card-column-large > * {
   margin: 0.25rem 0;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-large
-  h4 {
+.education .container .education-card .education-card-column .card-column-large h4 {
   font-weight: normal;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-large
-  ul {
+.education .container .education-card .education-card-column .card-column-large ul {
   padding-left: 1.5rem;
 }
 
-.education
-  .container
-  .education-card
-  .education-card-column
-  .card-column-large
-  hr {
+.education .container .education-card .education-card-column .card-column-large hr {
   border: 0;
   border-top: 1px solid #eee;
   margin-top: 40px;
@@ -1060,7 +1014,7 @@ header .seperator-skew svg .fill-white {
   margin: 0.75rem 0;
   width: 100%;
   border-radius: 3px;
-  border: 1px solid black;
+  border: 1px solid #afafaf;
   padding: 0.75rem;
   font-size: 1rem;
 }
@@ -1073,7 +1027,7 @@ header .seperator-skew svg .fill-white {
   width: 100%;
   border-radius: 3px;
   margin: 0.75rem 0;
-  border: 1px solid black;
+  border: 1px solid #afafaf;
   padding: 0.75rem;
   font-size: 1rem;
   resize: vertical;
@@ -1120,7 +1074,6 @@ header .seperator-skew svg .fill-white {
   background: #181a1b;
   padding: 1.5rem 0;
   color: white;
-  position: relative;
 }
 
 .footer canvas {

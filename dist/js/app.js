@@ -3,7 +3,6 @@ const body = document.querySelector("body");
 const navbar = document.querySelector("nav");
 
 window.addEventListener("DOMContentLoaded", function () {
-  // Get the form elements defined in your form HTML above
   var form = document.getElementById("contact-form");
 
   var status = document.getElementById("status");
@@ -11,8 +10,6 @@ window.addEventListener("DOMContentLoaded", function () {
   // Success and Error functions for after the form is submitted
   function success() {
     form.reset();
-    // status.classList.add("success");
-    // status.innerHTML = "Email sent successfully!";
   }
 
   function error() {
@@ -193,4 +190,3 @@ backToTopBtn.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, "300");
 });
-
