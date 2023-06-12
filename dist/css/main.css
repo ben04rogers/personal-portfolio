@@ -519,6 +519,7 @@ header .socials {
   position: absolute;
   bottom: 40%;
   left: -125px;
+  z-index: 10;
 }
 
 header .socials ul {
