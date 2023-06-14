@@ -25,8 +25,7 @@ a {
 }
 
 .main-font {
-  font-family: "Alfa Slab One", "Poppins";
-  font-weight: 400;
+  font-family: "Nunito", sans-serif;
 }
 
 .text-center {
@@ -484,13 +483,13 @@ header .hero p {
   color: white;
 }
 
-header .hero h1 {
+header .hero h1,
+header .hero h2 span {
   letter-spacing: 2px;
   white-space: nowrap;
   text-align: center;
   font-size: clamp(2rem, 5vw, 4rem);
-  font-family: "Alfa Slab One", "Poppins";
-  font-weight: 400;
+  font-weight: bold;
 }
 
 header .hero p {
@@ -676,9 +675,11 @@ header .seperator-skew svg .fill-white {
   padding: 3rem 0;
 }
 
-.projects h2 {
+.projects h2,
+.projects h2 span {
   text-align: center;
   margin-bottom: 3rem;
+  font-weight: bold;
 }
 
 .projects .project-row {
@@ -854,9 +855,11 @@ header .seperator-skew svg .fill-white {
   height: 100%;
 }
 
-.skills h2 {
+.skills h2,
+.skills h2 span {
   text-align: center;
   margin-bottom: 3rem;
+  font-weight: bold;
 }
 
 .skills .container {
